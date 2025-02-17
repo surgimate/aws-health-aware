@@ -261,7 +261,7 @@ resource "aws_dynamodb_table" "AHA-DynamoDBTable" {
     }
 
     point_in_time_recovery {
-        enabled = false
+        enabled = true
     }
 
     timeouts {}
